@@ -1,0 +1,402 @@
+/*==========================================================
+    Abstract:
+          => This Framework has been written
+          => MD.SUJAN AHMED
+============================================================*/
+
+
+/*Start Framework*/
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Lato:300,400,700,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+a,
+a:hover {
+  list-style: none;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ol,
+ul,
+input,
+button,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #000;
+}
+
+body {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+/*==========================================================
+    background-color:-
+============================================================*/
+.bg-orange {
+  background-color: #ffc61a;
+}
+
+.bg-gray {
+  background-color: #f5f4f2;
+}
+
+/*==========================================================
+    text-color:-
+============================================================*/
+.text-orange {
+  color: #ffc61a;
+}
+
+.text-dark {
+  color: #000 !important;
+}
+
+/*==========================================================
+    btn:-
+============================================================*/
+.btn {
+  padding: 0.375rem 1.4rem;
+  font-size: 1.3rem;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  border-color: #000;
+  letter-spacing: 1px;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+  color: #ffc61a;
+}
+
+.btn-orange {
+  background-color: #ffc61a;
+  color: #000;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+/*==========================================================
+    Padding Section:-
+============================================================*/
+
+/*==========================================================
+    Margin:-
+============================================================*/
+
+/*End Framework*/
+
+
+
+
+
+/*==========================================================
+    Header Start
+============================================================*/
+header {
+  background: url(../img/Header/header-gb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  height: 739px;
+}
+
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #000;
+  background-color: #ffc61a;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 4px 15px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 4px 18px;
+  text-transform: uppercase;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: #000;
+  background-color: #ffc61a;
+}
+
+header .header-info h1 {
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+header .header-info p {
+  letter-spacing: 6px;
+}
+
+header .header-info img {
+  position: relative;
+  top: 80px;
+}
+
+/*End Header/*
+
+/*==========================================================
+   Start Cab 
+============================================================*/
+.cab {
+  height: 705px;
+}
+
+.cab-left {
+  padding: 70px;
+}
+
+.cab .cab-left p {
+  color: #101010;
+}
+
+.cab .cab-left h1 {
+  font-size: 46px;
+}
+
+.cab .cab-left h4 {
+  font-size: 30px;
+}
+
+.cab-right {
+  background-color: #fff;
+  width: 380px;
+}
+
+.cab .cab-right h1 {
+  background-color: #000;
+  padding: 25px;
+}
+
+.cab .cab-right form input[type="text"] {
+  width: 49%;
+  display: inline-block;
+  margin-bottom: 20px;
+  border: 0;
+  border-bottom: 3px solid #e4e4e4;
+  border-radius: 0;
+}
+
+.cab .cab-right form select {
+  border: 0;
+  border-bottom: 3px solid #e4e4e4;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.cab-right form input.form-control:focus {
+  border-color: #ffc61a;
+  box-shadow: none;
+}
+
+.cab-right form select.form-control:focus {
+  border-color: #ffc61a;
+  box-shadow: none;
+}
+
+/*End Cab /*
+
+/*==========================================================
+   Start Card 
+============================================================*/
+.card {
+  border-radius: 0;
+  margin-top: 50px;
+}
+
+.card p {
+  color: #101010;
+}
+
+.card img {
+  margin-top: -80px;
+}
+
+.card-star img {
+  margin-left: 101px;
+  position: absolute;
+  margin-top: -73px;
+}
+
+/*End Card /*
+
+/*==========================================================
+   Start Content 
+============================================================*/
+.content {
+  background: url(../img/Content/content-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  height: 750px;
+}
+
+.content .content-info {
+  margin-top: 80px;
+}
+
+.content .content-info img {
+  position: absolute;
+}
+
+.content .content-info .content-text {
+  position: relative;
+  margin-left: 125px;
+}
+
+.content .content-info .content-text p {
+  font-size: 17px;
+}
+
+/*End Content /*
+
+/*==========================================================
+   Start Service 
+============================================================*/
+.service {
+  padding-top: 80px;
+  min-height: 652px;
+}
+
+.service-left {
+  padding: 57px;
+}
+
+.service-left h4 {
+  font-size: 24px;
+  color: #000;
+}
+
+/*End Service /*
+
+/*==========================================================
+   Start testim 
+============================================================*/
+.testim {
+  background: url(../img/Testim/testim-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.testim .testim-box {
+  background-color: #040707;
+  padding: 40px;
+  border-radius: 50px;
+}
+
+.testim .testim-box p {
+  font-size: 17px;
+}
+
+.testim .testim-box .testim-face img {
+  position: absolute;
+}
+
+.testim .testim-box .testim-face h4,
+h6 {
+  position: relative;
+  margin-left: 100px;
+}
+
+/*End testim /*
+
+/*==========================================================
+   Start Info 
+============================================================*/
+.info {
+  padding: 50px 0;
+}
+
+.info h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+/*End Info /*
+
+/*==========================================================
+   Start Contact 
+============================================================*/
+.contact {
+  background: url(../img/Contact/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.contact p {
+  font-size: 17px;
+}
+
+.contact h4 {
+  border-bottom: 7px solid #ffc61a;
+}
+
+.contact .about-cab-hub,
+.download,
+.contact-info {
+  margin: 0 20px;
+}
+
+.contact .about-cab-hub ul li a {
+  color: #ffc61a;
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+.contact .download span {
+  font-size: 20px;
+}
+
+.contact .download i {
+  color: #fff;
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.contact .download i.fa-apple {
+  margin-left: 68px;
+}
+
+.contact .contact-info li i {
+  position: absolute;
+  font-size: 23px;
+}
+
+.contact .contact-info li p {
+  position: relative;
+  margin-left: 50px;
+}
+
+/*End Contact /*
+
+/*==========================================================
+   Start Footer 
+============================================================*/
+
+/*End Footer /*

@@ -1,0 +1,471 @@
+/*=========================================================
+  Start Header
+=========================================================*/
+/*----------------------------768px------------------------------------*/
+@media(max-width:768px) {
+  header {
+    padding: 50px 0;
+  }
+
+  .header-info {
+    margin-top: 50px;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  .mt-5,
+  .my-5 {
+    margin-top: 5rem !important;
+  }
+}
+
+/*----------------------------556px------------------------------------*/
+@media(max-width:556px) {
+  .header-info {
+    margin-top: 50px;
+  }
+
+  .mt-5,
+  .my-5 {
+    margin-top: 1rem !important;
+  }
+}
+
+/*----------------------------480px------------------------------------*/
+@media(max-width:480px) {
+  .header-info {
+    margin-top: 50px;
+  }
+
+  .pb-5,
+  .py-5 {
+    padding-bottom: 0rem !important;
+  }
+}
+
+/*----------------------------320px------------------------------------*/
+@media(max-width:320px) {
+  header {
+    height: 600px;
+  }
+
+  .header-info {
+    margin-top: 50px;
+  }
+
+  header .header-info h3 {
+    font-size: 24px;
+    ;
+  }
+
+  header .header-info h1 {
+    font-size: 37px;
+  }
+
+  header .header-info p {
+    letter-spacing: 3px;
+  }
+}
+
+/*----------------------------290px------------------------------------*/
+@media(max-width:290px) {
+  header {
+    height: 615px;
+  }
+
+  .header-info {
+    margin-top: 50px;
+  }
+
+  header .header-info h1 {
+    font-size: 34px;
+  }
+}
+
+/*End Header*/
+
+/*==========================================================
+   Start Cab 
+============================================================*/
+@media(max-width:768px) {
+  .cab {
+    height: 1120px;
+  }
+
+  .cab-right {
+    margin: auto;
+  }
+
+  .pt-5,
+  .py-5 {
+    padding-top: 0rem !important;
+  }
+}
+
+/*----------------------------556px------------------------------------*/
+@media(max-width:556px) {
+  .cab {
+    height: 1020px;
+  }
+
+  .cab-left {
+    padding-top: 50px !important;
+  }
+
+  .cab .cab-left h1 {
+    font-size: 36px;
+  }
+}
+
+/*----------------------------480px------------------------------------*/
+@media(max-width:480px) {
+  .cab {
+    height: 1050px;
+  }
+
+  .cab-left {
+    margin-bottom: 50px !important;
+  }
+
+  .cab .cab-left p {
+    padding: 20px 0 !important;
+  }
+
+  .cab .cab-left h1 {
+    font-size: 36px;
+  }
+}
+
+/*----------------------------320px------------------------------------*/
+@media(max-width:320px) {
+  .cab {
+    height: 1080px;
+  }
+
+  .cab-left {
+    padding: 20px;
+  }
+
+  .cab .cab-left h4 {
+    font-size: 25px;
+  }
+
+  .cab .cab-left h1 {
+    font-size: 26px;
+  }
+
+  .cab-right {
+    width: 280px;
+  }
+
+  .cab-right h1 {
+    font-size: 33px;
+  }
+}
+
+/*----------------------------290px------------------------------------*/
+@media(max-width:290px) {
+  .cab {
+    height: 1090px;
+  }
+
+  .cab-right {
+    width: 260px;
+  }
+}
+
+/*End Cab /*
+
+/*==========================================================
+   Start Card 
+============================================================*/
+/*----------------------------992px------------------------------------*/
+@media(max-width:992px) {
+  .card-star img {
+    margin-left: 71px;
+  }
+}
+
+/*----------------------------768px------------------------------------*/
+@media(max-width:768px) {
+  .card {
+    margin-top: 120px;
+  }
+
+  .card-star img {
+    margin-left: 271px;
+  }
+
+  .card-info {
+    padding-top: 40px;
+  }
+}
+
+/*----------------------------556px------------------------------------*/
+@media(max-width:556px) {
+  .card-star img {
+    margin-left: 189px;
+  }
+}
+
+/*----------------------------480px------------------------------------*/
+@media(max-width:480px) {
+  .card-star img {
+    margin-left: 151px;
+  }
+}
+
+/*----------------------------320px------------------------------------*/
+@media(max-width:320px) {
+  .card-star img {
+    margin-left: 71px;
+  }
+
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+/*----------------------------290px------------------------------------*/
+@media(max-width:290px) {
+  .card-star img {
+    margin-left: 56px;
+  }
+}
+
+/*End Card /*
+
+/*==========================================================
+   Start Content 
+============================================================*/
+/*----------------------------992px------------------------------------*/
+@media(max-width:992px) {
+  .content .content-info .content-text p {
+    font-size: 15px;
+  }
+}
+
+/*----------------------------768px------------------------------------*/
+@media(max-width:768px) {
+  .content {
+    height: 1000px;
+  }
+
+  .content .content-info {
+    margin-top: 60px;
+  }
+
+  .content .content-info .content-text p {
+    font-size: 17px;
+  }
+}
+
+/*----------------------------556px------------------------------------*/
+@media(max-width:556px) {
+  .content {
+    height: 900px;
+  }
+}
+
+/*----------------------------480px------------------------------------*/
+@media(max-width:480px) {
+  .content {
+    height: 1030px;
+  }
+}
+
+/*----------------------------320px------------------------------------*/
+@media(max-width:320px) {
+  .content {
+    height: 1015px;
+  }
+
+  .content .info h2 {
+    font-size: 27px;
+  }
+
+  .content .info h1 {
+    font-size: 30px;
+  }
+
+  .content .content-info .content-text h4 {
+    font-size: 17px;
+  }
+
+  .content .content-info .content-text p {
+    font-size: 14px;
+  }
+}
+
+/*----------------------------290px------------------------------------*/
+@media(max-width:290px) {
+  .content {
+    height: 1200px;
+  }
+}
+
+/*End Content /*
+
+/*==========================================================
+   Start Service 
+============================================================*/
+/*----------------------------768px------------------------------------*/
+@media(max-width:768px) {
+  .service-left {
+    padding: 0px;
+  }
+
+  .mt-5,
+  .my-5 {
+    margin-top: 2rem !important;
+  }
+}
+
+/*----------------------------320px------------------------------------*/
+@media(max-width:320px) {
+  .service .service-info h1 {
+    font-size: 30px;
+  }
+
+  .service .service-info h2 {
+    font-size: 27px;
+  }
+}
+
+/*----------------------------290px------------------------------------*/
+@media(max-width:290px) {
+  .service .service-info h1 {
+    font-size: 25px;
+  }
+
+  .service .service-info h2 {
+    font-size: 25px;
+  }
+}
+
+/*End Service /*
+
+/*==========================================================
+   Start testim 
+============================================================*/
+/*----------------------------768px------------------------------------*/
+@media(max-width:768px) {
+  .testim {
+    height: 855px;
+  }
+
+  .testim .testim-box {
+    margin-top: 30px;
+  }
+}
+
+/*----------------------------556px------------------------------------*/
+@media(max-width:556px) {
+  .testim {
+    height: 943px;
+  }
+}
+
+/*----------------------------480px------------------------------------*/
+@media(max-width:480px) {
+  .testim {
+    height: 981px;
+  }
+
+  .testim .testim-box p {
+    font-size: 13px;
+  }
+}
+
+/*----------------------------320px------------------------------------*/
+@media(max-width:320px) {
+  .testim {
+    height: 840px;
+  }
+
+  .testim .testim-box .testim-face h4 {
+    font-size: 20px;
+  }
+
+  .testim .testim-box .testim-face h6 {
+    font-size: 15px;
+  }
+}
+
+/*----------------------------290px------------------------------------*/
+@media(max-width:290px) {
+  .testim {
+    height: 766px;
+  }
+
+  .testim .testim-info h1 {
+    font-size: 35px;
+  }
+
+  .testim .testim-info h2 {
+    font-size: 30px;
+  }
+
+  .testim .testim-box {
+    padding: 25px;
+    border-radius: 20px;
+  }
+
+  .testim .testim-box .testim-face h4 {
+    font-size: 15px;
+  }
+
+  .testim .testim-box .testim-face h6 {
+    font-size: 15px;
+  }
+}
+
+/*End testim /*
+
+/*==========================================================
+   Start Info 
+============================================================*/
+/*----------------------------768px------------------------------------*/
+@media(max-width:768px) {
+  .main-info h3 {
+    font-size: 25px;
+  }
+}
+
+/*----------------------------320px------------------------------------*/
+@media(max-width:320px) {
+  .main-info h1 {
+    font-size: 35px;
+  }
+}
+
+/*End Info /*
+
+/*==========================================================
+   Start Contact 
+============================================================*/
+/*----------------------------768px------------------------------------*/
+@media(max-width:768px) {
+  .contact p {
+    margin-top: 20px;
+  }
+
+  .contact h4 {
+    margin-top: 20px;
+  }
+
+  .pb-5,
+  .py-5 {
+    padding-bottom: 1.5rem !important;
+  }
+}
+
+/*End Contact /*
+
+/*==========================================================
+   Start Footer 
+============================================================*/
+
+/*End Footer /*
